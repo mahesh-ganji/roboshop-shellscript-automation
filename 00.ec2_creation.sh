@@ -59,7 +59,7 @@ VALIDATE() {
             {
                 "Action": "UPSERT",
                 "ResourceRecordSet": {
-                    "Name": "'$instance.$Domain_Name'",
+                    "Name": "'$Domain_Name'",
                     "Type": "A",
                     "TTL": 2,
                     "ResourceRecords": [
